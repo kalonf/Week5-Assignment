@@ -70,6 +70,11 @@ header {
 
 /* Handle the animation of the submenus */
 
+#menu li li a {
+	font-size: 20px;
+	color: #666;
+}	
+
 #menu ul {
     margin: 10px 0 0 0;
     _margin: 0; /*IE6 only*/
@@ -113,7 +118,7 @@ header {
 }
 
 #menu ul a {    
-    padding: 40px;
+    padding: -10px;
     width: 130px;
     _height: 10px; /*IE6 only*/
     display: block;
@@ -123,10 +128,11 @@ header {
 	color: #f41a1a;
 }
 
-#menu ul a:hover {
+/*#menu ul a:hover {
     background-color: #0186ba;
     background-image: linear-gradient(#04acec, #0186ba);
 }
+*/
 
 /* Handle the First and Last Child */
 #menu ul li:first-child > a {
